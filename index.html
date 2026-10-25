@@ -196,6 +196,18 @@
     padding:26px;margin-top:18px;color:var(--text-muted);font-size:0.92rem;
   }
 
+
+  /* ---------- privacy policy ---------- */
+  .policy{max-width:760px;}
+  .policy .meta{font-family:var(--mono);font-size:0.78rem;color:var(--text-muted);margin:6px 0 26px;line-height:1.8;}
+  .policy h3{margin-top:30px;color:var(--text);}
+  .policy p{max-width:none;margin-bottom:12px;}
+  .policy ul{list-style:disc;padding-left:22px;margin:0 0 14px;color:var(--text-muted);}
+  .policy li{margin-bottom:6px;font-size:1.02rem;}
+  .policy a{color:var(--teal);text-decoration:underline;}
+  .policy code{font-family:var(--mono);font-size:0.9em;color:var(--gold);}
+  .policy strong{color:var(--text);font-weight:600;}
+
   footer{
     border-top:1px solid var(--border);
     padding:28px 24px;text-align:center;
@@ -236,7 +248,7 @@
             <li><a href="#app-fishing-calendar" class="submenu-link" data-target="aplicatii" data-scroll="app-fishing-calendar">Fishing Calendar &amp; Weather</a></li>
           </ul>
         </li>
-        <li><a href="https://escudesign.github.io/privacy-policy.html" class="nav-ext">Privacy Policy</a></li>
+        <li><a href="#privacy-policy" class="nav-link" data-target="privacy-policy">Privacy Policy</a></li>
       </ul>
     </nav>
   </div>
@@ -366,6 +378,45 @@
 
     <div class="placeholder-card">
       Mai multe aplicații EscuDesign vor fi adăugate aici pe măsură ce sunt publicate.
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY POLICY ================= -->
+  <section id="privacy-policy">
+    <span class="eyebrow">Legal</span>
+    <h2>Privacy Policy – Solunar Fishing Calendar</h2>
+    <div class="policy">
+      <div class="meta">Last updated: October 25, 2026<br>Developer: Escu Design<br>Contact: <a href="mailto:escudesign@gmail.com">escudesign@gmail.com</a></div>
+
+      <p>This policy applies to the Android app <em>Solunar Fishing Calendar</em> (package <code>com.pescuit.calendar</code>). The app has no user accounts and we operate no servers that receive your data.</p>
+
+      <h3>1. Location (optional)</h3>
+      <p>If you grant the <em>approximate location</em> permission, the app reads your approximate location only while it is open. It is used to:</p>
+      <ul>
+        <li>calculate solunar times, sunrise/sunset and moon data <strong>on your device</strong>;</li>
+        <li>show a place name: the app asks the Android system geocoder for a city name. Depending on your device, the system geocoding service (usually provided by Google) may receive your coordinates for this purpose;</li>
+        <li>request a weather forecast: your coordinates, <strong>rounded to about 1 km</strong>, are sent over HTTPS to the Norwegian Meteorological Institute (<strong>MET Norway, api.met.no</strong>). MET Norway also receives your IP address and stores both in its access logs (Oslo, Norway). See <a href="https://api.met.no/doc/TermsOfService" target="_blank" rel="noopener">api.met.no/doc/TermsOfService</a>.</li>
+      </ul>
+      <p>We do not store your location on our own servers, and the app does not save it permanently on your device. You can use the app without granting the permission; solunar times then use default coordinates. Weather data: MET Norway, licensed CC BY 4.0.</p>
+
+      <h3>2. Advertising (Google AdMob)</h3>
+      <p>The app shows ads served by Google AdMob. The Google Mobile Ads SDK automatically collects and shares with Google: IP address (which can indicate approximate location), ad interactions, diagnostic information and device identifiers (Android advertising ID, app set ID), to deliver and measure ads, for analytics and to prevent fraud. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob policies</a>.</p>
+      <p>You can reset or delete your advertising ID in Android <em>Settings → Privacy → Ads</em>.</p>
+
+      <h3>3. Consent (EEA, UK)</h3>
+      <p>Where required by law, the app asks for your consent through Google's User Messaging Platform before any ad request is made. You can change your choice at any time in the app under <em>About → Privacy options</em>. If you do not consent, no ads that require consent are requested.</p>
+
+      <h3>4. Retention and deletion</h3>
+      <p>We do not keep a user database. Data held by Google and MET Norway is governed by their own policies. For access or deletion requests, contact <a href="mailto:escudesign@gmail.com">escudesign@gmail.com</a>.</p>
+
+      <h3>5. Your rights (GDPR)</h3>
+      <p>You have the right of access, rectification, erasure, restriction, portability and objection, and the right to lodge a complaint with your data protection authority (in Romania: ANSPDCP, <a href="https://www.dataprotection.ro" target="_blank" rel="noopener">dataprotection.ro</a>).</p>
+
+      <h3>6. Children</h3>
+      <p>The app is not directed to children under 13 and does not knowingly collect their data.</p>
+
+      <h3>7. Changes</h3>
+      <p>We will post any update on this page and change the date above.</p>
     </div>
   </section>
 
